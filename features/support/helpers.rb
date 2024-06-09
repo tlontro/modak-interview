@@ -27,6 +27,10 @@ module Helpers
     should_break ? (raise msg) : (return false)
   end
 
+  def switch_to_last_tab
+    page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
+  end
+
 end
 
 World(Helpers)
