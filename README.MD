@@ -64,3 +64,8 @@ Chromedriver should be automatically downloaded and installed by webdrivers gem,
 ```
 > rubocop
 ```
+
+### Execute tests
+```
+bundle exec cucumber
+```

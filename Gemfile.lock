@@ -116,6 +116,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.31.3)
       parser (>= 3.3.1.0)
+    rubocop-capybara (2.21.0)
+      rubocop (~> 1.41)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.21.1)
@@ -161,6 +163,7 @@ DEPENDENCIES
   require_all
   rspec
   rubocop (~> 1.0, >= 1.0.0)
+  rubocop-capybara
   selenium-webdriver
   site_prism
 
