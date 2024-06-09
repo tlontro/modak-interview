@@ -17,11 +17,11 @@ module Helpers
 
     retries = 0
     begin
-        sleep(sleep_time)
-        yield ? (return true) : (raise "Condition still false!")
+      sleep(sleep_time)
+      yield ? (return true) : (raise "Condition still false!")
     rescue RuntimeError
-        retries += 1
-        retry if retries < (time / sleep_time)
+      retries += 1
+      retry if retries < (time / sleep_time)
     end
 
     should_break ? (raise msg) : (return false)
@@ -30,7 +30,6 @@ module Helpers
   def switch_to_last_tab
     page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
   end
-
 end
 
 World(Helpers)

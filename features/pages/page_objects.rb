@@ -7,6 +7,10 @@ module Pages
   def ali_express_catalog_page
     @ali_express_catalog_page ||= AliExpressCatalogPage.new
   end
+
+  def ali_express_product_page
+    @ali_express_product_page ||= AliExpressProductPage.new
+  end
 end
 
 World(Pages)
