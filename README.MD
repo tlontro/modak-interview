@@ -10,7 +10,6 @@
     we can review it.
 
 ### Feature to Test
-
     As a Customer, we want to see if the second item from the second results
     page when searching for `instax mini` on www.aliexpress.com has at least 1
     item to be bought.
@@ -34,3 +33,29 @@
     
     Please email your solution as soon as you have completed the challenge or
     the time is up.
+
+## Setup
+
+### Install Ruby v 3.2.2
+I recommend installing rvm, steps can be found [RVM](https://rvm.io/)
+Then with rvm installing the desired ruby version
+> rvm install 3.2.2
+
+Double check the successful installation
+```
+> ruby -v
+ruby 3.2.2
+```
+
+### Install bundler gem
+```
+> gem install bundler
+```
+
+### Install all project dependencies
+```
+> bundle install
+```
+
+### Chromedriver
+Chromedriver should be automatically downloaded and installed by webdrivers gem, but in case you have any trouble or just prefer it that way, you can download the chromedriver from the [google chrome for developers](https://developer.chrome.com/docs/chromedriver/downloads) and put it in `/urs/local/bin`, just make sure the chromedriver version matches your chrome version.
