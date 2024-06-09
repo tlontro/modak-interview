@@ -69,3 +69,14 @@ Chromedriver should be automatically downloaded and installed by webdrivers gem,
 ```
 bundle exec cucumber
 ```
+
+NOTE:
+Due to not having an element on the page that suggests stock, I've assumed that "Buy now" button would be what dictates if a product has stock or not and implemented the tests considering this fact.
+
+## Conclusion
+
+### Test Results:
+![](test.gif)
+
+### Linter Results:
+![](rubocop.gif)
