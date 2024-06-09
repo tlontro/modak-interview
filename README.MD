@@ -59,3 +59,8 @@ ruby 3.2.2
 
 ### Chromedriver
 Chromedriver should be automatically downloaded and installed by webdrivers gem, but in case you have any trouble or just prefer it that way, you can download the chromedriver from the [google chrome for developers](https://developer.chrome.com/docs/chromedriver/downloads) and put it in `/urs/local/bin`, just make sure the chromedriver version matches your chrome version.
+
+### Code Linter [Rubocop](https://rubocop.org/)
+```
+> rubocop
+```
