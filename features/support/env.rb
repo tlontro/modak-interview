@@ -8,6 +8,8 @@ require "selenium-webdriver"
 require "site_prism"
 
 [
+  "features/pages/sections",
+  "features/pages",
   "features/support"
 ].each { |each_file| require_all(each_file) }
 

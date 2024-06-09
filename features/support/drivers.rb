@@ -20,7 +20,7 @@ module Drivers
 
   def self.defaults(driver)
     Capybara.default_driver = driver
-    Capybara.default_max_wait_time = 60
-    Capybara.app_host = "https://www.aliexpress.com"
+    Capybara.default_max_wait_time = 15
+    Capybara.app_host = "https://www.aliexpress.us/?lan=en&gatewayAdapt=glo2usa"
   end
 end
